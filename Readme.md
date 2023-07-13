@@ -2,6 +2,8 @@ A neat script that turns your videos into geometric primitives.
 
 # How to use
 
+Make sure you have `ffmpeg` installed!
+
 1. Clone the repository
 2. Get the executable for you OS from https://github.com/ErikGaDev/geometrize-haxe-cli/releases/latest
 3. Put it in the same directory as the index.js file
