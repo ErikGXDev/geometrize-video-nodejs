@@ -1,5 +1,30 @@
 A neat script that turns your videos into geometric primitives.
 
+# How to use
+
+1. Clone the repository
+2. Get the executable for you OS from https://github.com/ErikGaDev/geometrize-haxe-cli/releases/latest
+3. Put it in the same directory as the index.js file
+4. Run `npm install`
+5. Configure `settings.json` (See [Settings](#Settings))
+6. Run `node index.js`
+
+# Settings
+
+Here are keys and values you can put into your `settings.json` file:
+
+| Argument    | Description                                                                  | Expected Value                                                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| shapes      | What shapes to use for geometrizing                                          | One or more of: rectangle, rotated_rectangle, triangle, ellipse, rotated_ellipse, circle, line, quadratic_bezier, polyline (**separated by space**) |
+| shapeAmount | How many shapes per frame                                                    | number higher than 0 (100-1000 recommended)                                                                                                         |
+| candidates  | Number of candidate shapes added to image output                             | number higher than 0 (20-500 recommended)                                                                                                           |
+| mutations   | Number of mutations per candidate                                            | number higher than 0 (20-200 recommended)                                                                                                           |
+| alpha       | Alpha value of shapes                                                        | number between 1-255 (128 recommended)                                                                                                              |
+| fps         | Target fps of geometrized video                                              | number higher than 0                                                                                                                                |
+| workers     | How many concurrent scripts/threads that compute a section of the video each | number between 0-16 (4-8 recommended)                                                                                                               |
+
+# Examples
+
 ### Seagulls
 
 **Left half: Geometrized<br>Right half: Original**
