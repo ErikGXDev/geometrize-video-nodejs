@@ -4,7 +4,7 @@ A neat script that turns your videos into geometric primitives.
 
 **Left half: Geometrized<br>Right half: Original**
 
-https://raw.githubusercontent.com/ErikGaDev/geometrize-video-script/main/readme/seagulls.mp4
+https://github.com/ErikGaDev/geometrize-video-script/assets/54033728/49e25ec3-747b-4001-9776-42e89d430839
 
 |             | Resolution | FPS | Length / Time to render |
 | ----------- | ---------- | --- | ----------------------- |
@@ -27,7 +27,7 @@ Settings:
 
 **Left half: Original<br>Right half: Geometrized**
 
-https://raw.githubusercontent.com/ErikGaDev/geometrize-video-script/main/readme/wildlife.mp4
+https://github.com/ErikGaDev/geometrize-video-script/assets/54033728/ce5e4fa9-85f6-44ed-bf98-34ec5061772f
 
 |             | Resolution | FPS | Length / Time to render |
 | ----------- | ---------- | --- | ----------------------- |
