@@ -1,0 +1,16 @@
+{
+  "name": "geometrize-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "svg2img": "^1.0.0-beta.2"
+  }
+}

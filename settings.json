@@ -1,0 +1,9 @@
+{
+  "shapes": "triangle rotated_ellipse circle",
+  "shapeAmount": 500,
+  "candidates": 200,
+  "mutations": 50,
+  "alpha": 128,
+  "fps": 24,
+  "workers": 8
+}
