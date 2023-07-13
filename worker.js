@@ -13,7 +13,7 @@ process.on("message", (files) => {
       "./geometrized/" + path.basename(filePath).split(".")[0] + ".svg";
 
     execSync(
-      `GeometrizeCli -i ./${filePath} -o ${fileName} -t ${settings.shapes} -s ${settings.shapeAmount} -c ${settings.candidates} -m ${settings.mutations} -a ${settings.alpha}`
+      `node geometrize.js -i ./${filePath} -o ${fileName} -t ${settings.shapes} -s ${settings.shapeAmount} -c ${settings.candidates} -m ${settings.mutations} -a ${settings.alpha}`
     );
 
     process.send(1);
